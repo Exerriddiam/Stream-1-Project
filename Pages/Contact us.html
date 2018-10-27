@@ -8,9 +8,9 @@
 		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="javascript" href="../javascript/javascript.js"/>
 	</head>
-		<body>
+		<body id=contact>
 			<nav class="navbar navbar-inverse navbar-static-top">
-					<div class="container">
+					<div class="navcontainer">
 						<div class="navbar-header">
 							<a class="navbar-brand" href="home.html">Texas Tick Fever</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#CollapsingList">
@@ -25,37 +25,27 @@
 								  <li><a href="About.html">About</a></li>
 								  <li><a href="Media.html">Media</a></li>
 								  <li><a href="Events.html">Events</a></li>
-								  <li><a href="Contact Us.html">Contact Us</a></li>
+								  <li><a href="Contact Us.html">Book Us</a></li>
 							 </ul>
 					   </div>
 			</nav>
 			   </div>
 
-			   <div class="col-md-10 col-md-offset-1 container">
-  
-  				    <figure class="page-head-image">
-    				    <img src="Head image"/>
-  				    </figure>
+			<section class="col-md-6 col-md-offset-5 contactus container">
 
-              <div class="col-md-12 col-md-offset-5 WantedHeading">
-               <h2>WANTED</h2>
-              </div>
+              <article class="col-md-8 col-md-offset-2 contactheading">
+  				      <h1>Contact us for Availability</h1>
+              </article>
 
+              <article class="col-md-10 col-md-10-offset-2">
+                <p>Fill in our handy form or......</p>
 
-              <div class="col-md-8 col-md-offset-2" id="heading-div">
-  				      <h1>Contact us for Availability and Questions</h1>
-              </div>
-
-              <div class="col-md-10 col-md-10-offset-2">
-                <p>Fill in our handy form or Contact us Via e-mail.</p>
-
-  				      <p><strong>Send your personal info to:</strong> <a href="mailto:">EMAIL@ADDRESS HERE</a></p>
-              </div>
+  				      <p><strong>Feel free to email us for more information via:</strong> <a href="mailto:">EMAIL@ADDRESS HERE</a></p>
+              </article>
 
     		<form onsubmit="javascript:submit_form()" class="form-contact" name="form-contact" id="form-contact">
 
-      
-      <div>
+        <div>
         	<div class="form-div">
 				    <div class="col-md-6">
            	 	<label class="control-label" for="fname">*First Name</label>
@@ -79,8 +69,7 @@
 
           <div class="form-div">
             <div class="col-md-6">
-              <label class="control-label" for="date">*Date</label>
-              <div class="input-group">
+              <label class="control-label" for="date">*Date of your booking</label>
                 <input id="date" class="form-control date" placeholder="21/06/17" required name="Date" type="date">
               </div>
             </div>
@@ -89,8 +78,7 @@
           <div class="form-div">
             <div class="col-md-6">
               <label class="control-label" for="mobile">*Mobile</label>
-              <div class="input-group">
-                <input id="mobile" pattern=[0]{1}[7]{1}[0-9]{9} class="form-control" placeholder="0796444444" required name="" type="text">
+                <input id="mobile" pattern=[0]{1}[7]{1}[0-9]{9} class="form-control" placeholder="0796444444" type="text">
               </div>
             </div>
           </div>
@@ -98,7 +86,6 @@
           <div class="form-div">
             <div class="col-md-6">
               <label class="input-group" for="Location">*Location of Event</label>
-              <div class="input-group">
                  <input id="area" placeholder="Area" class="form-control required" data-min-length="1" list="languages" required name="Area" type="text">
               </div>
 
@@ -244,13 +231,10 @@
               alert("Thank you for submitting your details, we'll get back to you as soon as we can")
             }
           </script> 
-
         </form>
-      </div>
+      </section>
         <script src="http://code.jquery.com/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
         <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-		</body>
-
-    <div class="navbar navbar-fixed-bottom footer">Copy Right</div>
+    <footer class="navbar navbar-fixed-bottom footer">Copyright <span id=copyright> &copy;</span> 2018</footer>
+  </body>
 	</html>

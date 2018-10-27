@@ -1,9 +1,7 @@
 $(document).ready(function() {
 
-$("background").css("sepia");
-
-
-
-
+	$("window").load(function() {
+	$("background-image").css("sepia","(.5)");
+	})
 
 });

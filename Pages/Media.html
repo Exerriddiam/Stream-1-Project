@@ -7,9 +7,9 @@
 		<link rel="stylesheet" type="text/css" href="../CSS/Website.css">
 		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
 	</head>
-		<body>
+		<body id="media">
 			<nav class="navbar navbar-inverse navbar-static-top">
-					<div class="container">
+					<div class="navcontainer">
 						<div class="navbar-header">
 							<a class="navbar-brand" href="home.html">Texas Tick Fever</a>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#CollapsingList">
@@ -29,12 +29,12 @@
 					</div>
 			</nav>
 	<div class="col-md-12">
-		<div class="col-md-10 col-md-offset-1 container">
-			<div class="col-sm-6 col-md-offset-3" id="">
-					<h1>Check out our Pictures and Videos for a taste of the awesome Texas Ticks</h1>	
+		<section class="col-md-10 col-md-offset-1">
+			<div class="col-sm-6 col-md-offset-3">
+					<h1>Pictures and Videos of the awesome Texas Ticks</h1>	
 				</div>
 
-					<div class-md-10>
+					<div class=md-8>
 						<figure>
 							<div id="carousel" class="carousel slide" data-ride="carousel">
 
@@ -42,33 +42,56 @@
 									<li data-target="#carousel" data-slide-to="0" class="active"></li>
 									<li data-target="#carousel" data-slide-to="1"></li>
 									<li data-target="#carousel" data-slide-to="2"></li>
+									<li data-target="#carousel" data-slide-to="3"></li>
+									<li data-target="#carousel" data-slide-to="4"></li>
+									<li data-target="#carousel" data-slide-to="5"></li>
+									<li data-target="#carousel" data-slide-to="6"></li>
+									<li data-target="#carousel" data-slide-to="7"></li>
 								</ol>
 
 							<div class="carousel-inner">
 								<div class="item active">
-									<img src="../Img/Phil Slideguitar.jpg" alt="img should be here">
+									<img src="../Img/duopickup1.jpg" alt="img should be here">
 									<div class="carousel-caption">
-										<h3>Heading for first picture</h3>
+										<h3></h3>
 										<p>Comment on picture 1</p>
 									</div>
 								</div>
 
 								<div class="item">
-									<img src="image location" alt="img should be here">
+									<img src="../img/duopickup2.jpg" alt="img should be here">
 										<div class="carousel-caption">
 										<h3>Heading for second picture</h3>
 										<p>comment on picture 2</p>
-								</div>
-							</div>
-
-							<div class="item">
-								<img src="img location" alt="img should should be here">
-									<div class="carousel-caption">
-									<h3>Heading for picture 3</h3>
-									<p>comment on particular picture</p>
 									</div>
 								</div>
-							</div>	
+
+								<div class="item">
+									<img src="../img/duoplaying.jpg" alt="img should should be here">
+										<div class="carousel-caption">
+										<h3>Heading for picture 3</h3>
+										<p>comment on particular picture</p>
+									</div>
+								</div>
+								
+								<div class="item">
+									<img src="../img/philsteel.jpg" alt="slash and guitar picture">
+									<div class="carousel-caption">
+									<h3>Heading for picture 4</h3>
+									<p> comment</p>
+									</div>
+								</div>
+
+								<div class="item">
+									<img src="../img/philstretch.jpg" alt="slash and stretch">
+									<div class="carosuel-caption">
+									<h3>Heading for picture 5</h3>
+									<p>Comment</p>
+									</div>
+								</div>
+
+							</div>
+
 
 														<!--Left and Right Controls for carousel-->
 								<a class="left carousel-control" href="#carousel" data-slide="prev">
@@ -83,32 +106,35 @@
 							</div>
 						</figure>
 					</div>
-				</div>
-					<div class="col-md-10 col-md-offset-1 container">
+				</section>
+
+					<section class="col-md-10 col-md-offset-1">
 						<div class="col-md-8 col-md-offset-2">
 								<h1>Our Videos</h1>
-							</div>
-						<div class="col-md-8 col-md-offset-4">
-							<div class="row-md-6 col-md-right" id="video1">
+						</div>
+							<div class="col-md-8 col-md-offset-4">
+								<div class="row-md-8 col-md-right" id="video1">
 								<video controls="controls">
 									<source src="" type="video/mp4">
 								<video>
 							</div>
 
-							<div 	class="row-md-12" id="video2">
+						</div>
+							<div class="col-md-10 col-md-offset-4">
+								<div class="row-md-8 row-md-offset-4" id="video2">
 								<video controls="controls">
-									<source src="" type="video/mp4">
+									<source src="" id="video/mp4">
 								</video>
 							</div>
-								<iframe width="300" height="200" src="https://www.youtube.com/channel/UC98NEpzZUyJSlObQmGHBnwg/videos">
-								</iframe>
-							</div>
-						</div>
+							<iframe type="text/html" src="https://www.youtube.com/watch?v=Ajr49H2ZsOg&feature=share"></iframe>
+
+							<iframe type="text/html" src="https://www.youtube.com/watch?v=XaVr-kdozSY&feature=share"></iframe>
+					</section>
 					
 
-			<script src="http://code.jquery.com/jquery.min.js"></script>
-			<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+			
 		</body>
-		<div class="navbar navbar-fixed-bottom footer">Copy Right</div>
-	</html>
+		<footer class="navbar navbar-fixed-bottom footer">Copyright <span id="copyright">&copy;</span> 2018 </footer>
+</html>
