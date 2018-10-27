@@ -52,6 +52,7 @@ This website will allow the user to browse for more information on the band, vie
 	-changing the background to something more appropriate and professional.
 
 ### Features to implement
+	-facebook short cut image added(need to be linked to facebook)
 
 	-colour of text changed(more fine tuning needed on this)
 
@@ -115,6 +116,10 @@ This website will allow the user to browse for more information on the band, vie
 	-Issue with parts of the page missing and having to scroll to see the rest of the site.
 
 	-more formating of div sizes for example the about page, it deosnt look quite right.
+
+	-Issue with about pages content coming into contact with the sides of the window causeing jerky scrolling.
+
+	-Issue with fine tuning of divs scrolling on and off the page.I might remove this. (Might also remove the transparency effect on the div backgrounds)
 
 ## Created by
 

@@ -192,7 +192,7 @@ span{/*selecting the smaller sized font on the home page*/
 }
 
 .eventsmapcontainer{
-	margin-top: 220px;
+	margin-top: 300px;
 }
 
 .map{
@@ -209,17 +209,33 @@ span{/*selecting the smaller sized font on the home page*/
 	margin: 10px;
 }
 
-@media only screen and (min-width: 1920) {
-	#aboutpic1{width: 60%
-}
-
 .header1{
 	display: none;
 }
 
+#facebooklink{
+	display: block;
+	content:url("../img/fb.png");
+	width: 100px;
+	margin: 2px;
+	padding: 2px;
+}
 
 #copyright{
 	font-family: "Times New Roman";/* this allows for the copyright C to be displayed as the character wasnt supported by my custom font*/
 }
 
+@media only screen and (min-width: 400px) {
+	nav {
+		position: fixed;
+	}
+
+	body{
+		background-image: url("../img/duoplayingb&w.jpg");
+	}
+	footer{
+		position: absolute;
+
+	}
+}
 
