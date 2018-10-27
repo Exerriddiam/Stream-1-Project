@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
-	$("window").load(function() {
-	$("background-image").css("sepia","(.5)");
-	})
+	$(window).on("load" ,function() {
+	$(".header1").hide();
+	$("#home").css("sepia","0.9")
+    $(".header1").fadeIn(5000);
+	});
 
 });

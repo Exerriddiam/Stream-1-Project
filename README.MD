@@ -17,6 +17,8 @@ This website will allow the user to browse for more information on the band, vie
 ### Existing features
 -General Website Features
 
+	-Jquery effects added to the home page(more to be implemented)
+
 	-Form validation
 
 	-Carousel of images,
@@ -47,19 +49,15 @@ This website will allow the user to browse for more information on the band, vie
 
 	-5 pages(Home, About, Media, Events and a contact us page.
 
-	
+	-changing the background to something more appropriate and professional.
 
 ### Features to implement
 
-	-Some Jquery events to make the site more eye catching
+	-colour of text changed(more fine tuning needed on this)
 
-	-Working links in the navbar to different pages.
+	-Video elements (added but after talks with my client he has others better videos he would like to use)
 
-	-Video elements (added but going to link this to my clients youtube channel)
-
-	-changing the background to something more appropriate and professional.(added)
-
-	-Some Jquery events to make the site more eye catching(added)
+	-Some Jquery events to make the site more eye catching(more to come)
 
 	-A way to advertise resources on the site for use of fonts etc(added as and alert on home page)added)
 
@@ -80,7 +78,7 @@ This website will allow the user to browse for more information on the band, vie
 	-**Javascript** has been used to alert the user that they're contact form has been submitted succesfully and and alert has been cretaed to give credits information.
 
 -[JQuery]
-	-**JQuery** to soon be used for adding effects ie hiding of elements and then to fade in content.
+	-**JQuery** being used for some effects on all pages
  
 
 ## Contributing
@@ -114,7 +112,9 @@ This website will allow the user to browse for more information on the band, vie
 	-Issue with page layout and dissappearance of styling and imagery after placing HTML pages into a seperate folder.
 	**FIXED**, by adding (/..) after image locations and that of Jquery and css folder locations.
 
-	-Issue
+	-Issue with parts of the page missing and having to scroll to see the rest of the site.
+
+	-more formating of div sizes for example the about page, it deosnt look quite right.
 
 ## Created by
 
