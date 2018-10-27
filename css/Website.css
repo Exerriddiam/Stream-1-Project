@@ -1,26 +1,26 @@
 
 @font-face{
 	font-family: quentin;
-	src: url("../Fonts/quentincaps.ttf") format("ttf"),/*this font is used only for headings*/
-  	url("../Fonts/quentincaps.woff") format("woff"),
-  	url("../Fonts/quentincaps.ttf") format("truetype");
+	src: url("../fonts/quentincaps.ttf") format("ttf"),/*this font is used only for headings*/
+  	url("../fonts/quentincaps.woff") format("woff"),
+  	url("../fonts/quentincaps.ttf") format("truetype");
 }
 
 
 @font-face{
 	font-family: durango;
-	src: url("../Fonts/durangowesterneroded.ttf") format("ttf"),/*this font is used in some headings but mainly used in the navbar*/
-  	url("../Fonts/durangowesterneroded.woff") format("woff"),
-  	url("../Fonts/durangowesterneroded.ttf") format("truetype"),
-  	url("../Fonts/durangowesterneroded.otf") format("opentype");
+	src: url("../fonts/durangowesterneroded.ttf") format("ttf"),/*this font is used in some headings but mainly used in the navbar*/
+  	url("../fonts/durangowesterneroded.woff") format("woff"),
+  	url("../fonts/durangowesterneroded.ttf") format("truetype"),
+  	url("../fonts/durangowesterneroded.otf") format("opentype");
 
 }
 
 @font-face{
 	font-family: oldtown;
-	src: url("../Fonts/OldTown.ttf") format("ttf"), /*this font is used in paragraphs*/
-	url("../Fonts/OldTown.woff") format("woff"),
-	url("../Fonts/OldTown.ttf") format("truetype");
+	src: url("../fonts/oldTown.ttf") format("ttf"), /*this font is used in paragraphs*/
+	url("../fonts/oldtown.woff") format("woff"),
+	url("../fonts/oldtown.ttf") format("truetype");
 }
 .navcontainer{
 	margin-left: 30px;
@@ -34,7 +34,7 @@
 }
 
 nav{
-	background-image: url("../Img/Rusticwood.jpg");
+	background-image: url("../img/rusticwood.jpg");
 	background-size: cover;
 	width: 100%;
 
@@ -60,7 +60,7 @@ h1{
 }
 
 #home{/*background images*/
-	background-image: url("../img/Background.jpg");
+	background-image: url("../img/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: "quentin";
@@ -113,14 +113,14 @@ p{
 }
 
 .container{/*default container styling*/
-	background-image:url("../Img/rusticwood.jpg");
+	background-image:url("../img/rusticwood.jpg");
 	border-radius: 10px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .container1{/*Container, transverse version of rustic wood image*/
-	background-image:url("../Img/rusticwood180deg.jpg");
+	background-image:url("../img/rusticwood180deg.jpg");
 	border-radius: 10px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -148,7 +148,7 @@ span{/*selecting the smaller sized font on the homepage header*/
 	margin-bottom: 10px;
 	float: right;
 	display: inline-block;
-	content:url("../img/stretch1.jpg"); 
+	content: url("../img/stretch1.jpg"); 
 	width: 50%;
 }
 
@@ -157,7 +157,7 @@ span{/*selecting the smaller sized font on the homepage header*/
 	margin-bottom: 10px;
 	float: left;
 	display: inline-block;
-	content: url("../Img/philsteel.jpg");
+	content: url("../img/philsteel.jpg");
 	width: 50%;
 }
 .aboutdivheader{
@@ -165,7 +165,7 @@ span{/*selecting the smaller sized font on the homepage header*/
 }	
 
 .aboutmedia{
-	background-image: url("../Img/Rusticwood.jpg");
+	background-image: url("../img/rusticwood.jpg");
 	background-size: cover;
 	margin-top: 20px;
 	width: 100%;
@@ -257,8 +257,8 @@ span{/*selecting the smaller sized font on the homepage header*/
 
 #facebooklink{
 	display: block;
-	content:url("../img/FB.png");
-	background-image: url("../Img/Rusticwood.jpg");
+	content:url("../img/fb.png");
+	background-image: url("../img/rusticwood.jpg");
 	background-size: cover;
 	margin-top: 20px;
 	width: 100%;
@@ -283,7 +283,7 @@ button{
 	font-size: 25px;
 	font-family: "durango";
 	text-align: center;
-	background-image: url("../Img/Rusticwood180deg.jpg");
+	background-image: url("../img/rusticwood180deg.jpg");
 	background-size: cover;
 	border-top: 2px solid black;
 	text-shadow: 2px 2px black;
