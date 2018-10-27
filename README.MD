@@ -51,18 +51,18 @@ This website will allow the user to browse for more information on the band, vie
 
 	-changing the background to something more appropriate and professional.
 
+		-facebook short cut image and link
+
+	-colour of text changed for more visibility
+
+	-Video elements 
+
+	-Some Jquery events to make the site more eye catching
+
+		-A way to advertise resources on the site for use of fonts etc(added as and alert on home page on the click of a button)added)
 ### Features to implement
-	-facebook short cut image added(need to be linked to facebook)
 
-	-colour of text changed(more fine tuning needed on this)
-
-	-Video elements (added but after talks with my client he has others better videos he would like to use)
-
-	-Some Jquery events to make the site more eye catching(more to come)
-
-	-A way to advertise resources on the site for use of fonts etc(added as and alert on home page)added)
-
-
+-None all carried out
 
 ## Technologies Used
 -[HTML] Hyper Text Mail Language.
@@ -114,12 +114,16 @@ This website will allow the user to browse for more information on the band, vie
 	**FIXED**, by adding (/..) after image locations and that of Jquery and css folder locations.
 
 	-Issue with parts of the page missing and having to scroll to see the rest of the site.
+	**Fixed, by changing the navbar size and formating of margins and padding too.
 
 	-more formating of div sizes for example the about page, it deosnt look quite right.
+	**FIXED** just changed the overal size of the div boxs
 
 	-Issue with about pages content coming into contact with the sides of the window causeing jerky scrolling.
+	**Fixed** as mentioned above, this was due to the size of the divs.
 
-	-Issue with fine tuning of divs scrolling on and off the page.I might remove this. (Might also remove the transparency effect on the div backgrounds)
+	-Issue with fine tuning of divs scrolling on and off the page.I might remove this.
+	**FIXED** this was more a UX issue and decided to remove this for the better.
 
 ## Created by
 

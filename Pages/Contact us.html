@@ -4,9 +4,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Texas Tick Fever Contact Us</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="../CSS/Website.css">
 		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="javascript" href="../javascript/javascript.js"/>
+    <script type="text/javascript" src="../JQuery effects/jquery.js"></script>
 	</head>
 		<body id=contact>
 			<nav class="navbar navbar-inverse navbar-static-top">
@@ -38,9 +40,7 @@
               </article>
 
               <article class="col-md-10 col-md-10-offset-2">
-                <p>Fill in our handy form or......</p>
-
-  				      <p><strong>Feel free to email us for more information via:</strong> <a href="mailto:">EMAIL@ADDRESS HERE</a></p>
+                <p>Fill in our handy form or email us for more information via:<a href="mailto:">EMAIL@ADDRESS HERE</a></p>
               </article>
 
     		<form onsubmit="javascript:submit_form()" class="form-contact" name="form-contact" id="form-contact">
@@ -48,22 +48,22 @@
         <div>
         	<div class="form-div">
 				    <div class="col-md-6">
-           	 	<label class="control-label" for="fname">*First Name</label>
-            	<input id="first_name" pattern=[A-Za-z]{1} class="form-control" placeholder="Jim" required="" type="text">
+           	 	<label class="control-label" for="name">*First Name</label>
+            	<input id="first_name" pattern=[A-Za-z]{3, } class="form-control" placeholder="Jim" required="" type="text">
             </div>
           </div>
 
           <div class="form-div">
             <div class="col-md-6">
               <label class="control-label" for="surname">*Last Name</label>
-              <input id="last_name" pattern=[A-Za-z] class="form-control" placeholder="Beam" required="" type="text">
+              <input id="last_name" pattern=[A-Za-z]{3, } class="form-control" placeholder="Beam" required="" type="text">
             </div>
           </div>
 
           <div class="form-div">
             <div class="col-md-6">
               <label class="control-label" for="email">*Email</label>
-              <input id="email" class="form-control" placeholder="Name@Hotmail.co.uk" required name="email" type="email">
+              <input id="email" class="form-control" placeholder="Email@Hotmail.co.uk" required name="email" type="email">
             </div>
           </div>
 
@@ -235,6 +235,7 @@
       </section>
         <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <footer class="navbar navbar-fixed-bottom footer">Copyright <span id=copyright> &copy;</span> 2018</footer>
   </body>
 	</html>
