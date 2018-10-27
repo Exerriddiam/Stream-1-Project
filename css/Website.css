@@ -1,18 +1,26 @@
 
 @font-face{
-	font-family:quentin;
-	src: url("../fonts/quentincaps.ttf");
+	font-family: quentin;
+	src: url("../Fonts/quentincaps.ttf") format("ttf"),/*this font is used only for headings*/
+  	url("../Fonts/quentincaps.woff") format("woff"),
+  	url("../Fonts/quentincaps.ttf") format("truetype");
+}
+
+
+@font-face{
+	font-family: durango;
+	src: url("../Fonts/durangowesterneroded.ttf") format("ttf"),/*this font is used in some headings but mainly used in the navbar*/
+  	url("../Fonts/durangowesterneroded.woff") format("woff"),
+  	url("../Fonts/durangowesterneroded.ttf") format("truetype"),
+  	url("../Fonts/durangowesterneroded.otf") format("opentype");
 
 }
 
 @font-face{
-	font-family:durango;
-	src: url("../fonts/durango western eroded demo.otf");
-}
-
-@font-face{
-	font-family:oldtown;
-	src: url("../fonts/OldTown.ttf");
+	font-family: oldtown;
+	src: url("../Fonts/OldTown.ttf") format("ttf"), /*this font is used in paragraphs*/
+	url("../Fonts/OldTown.woff") format("woff"),
+	url("../Fonts/OldTown.ttf") format("truetype");
 }
 
 .navbar-brand{
@@ -23,7 +31,7 @@
 }
 
 nav{
-	background-image: url("../Img/Rusticwood1.jpg");
+	background-image: url("../Img/Rusticwood.jpg");
 	background-size: cover;
 }
 
@@ -41,6 +49,11 @@ h1{
 	text-shadow: 2px 2px darkgrey;
 }
 
+.WantedHeading{
+	font-size: 50px !important;
+	font-family: "durango";
+}
+
 body{
 	background-image: url("../img/Western Background.jpg");
 	background-size: cover;
@@ -54,18 +67,16 @@ p{
 	color: #000;
 	font-family: "oldtown";
 }
-#wantedh1{
-	font-family: "durango";
-	font-size: 30px;
-}
 
-#footer{
+.footer{
+	width: 100%;
 	display: flex;
 	font-size: 25px;
 	font-family: "durango";
 	justify-content: center;
-	background-image: url("../Img/Rusticwood1.jpg");
+	background-image: url("../Img/Rusticwood.jpg");
 	background-size: cover;
+	border-top: 2px solid;
 	text-shadow: 2px 2px black;
 	color: grey;
 }
@@ -73,31 +84,19 @@ p{
 ol{
 	list-style-type: none;
 }
-#styledcontainer{
-	background-image:url("../Img/old-yellow-and-brown-parchment-paper.jpg");
+.container{
+	background-image:url("../Img/rusticwood.jpg");
 	border-radius: 10px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 10px;
 }
 
-.form-container{
-	background-image:url("../Img/old-yellow-and-brown-parchment-paper.jpg");
-	padding: 10px;
-
-}
 button{
 	margin-top: 25px !important;
 	margin-bottom: 25px !important;
 	box-shadow: 2px 2px black;
 
-}
-#wrapper{
-	background-image:url("../Img/old-yellow-and-brown-parchment-paper.jpg");
-	border-radius: 10px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	
 }
 
 #heading-div{

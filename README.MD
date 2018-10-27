@@ -17,8 +17,9 @@ This website will allow the user to browse for more information on the band, vie
 ### Existing features
 -General Website Features
 
+	-Form validation
 
-	-Carousel of image.
+	-Carousel of images, (one currently)
 
 	-Working links in the navbar to different pages.
 
@@ -26,25 +27,18 @@ This website will allow the user to browse for more information on the band, vie
 
 	-5 pages(Home, About, Media, Events and a contact us page.
 
+	-Video elements (awaiting a video source for them and more)
 
 ### Features to implement
+	-More pictures advertising the band
 
-	-form Validation.
+	-Carousel with alot more images of the band at gigs and in general.
 
-	-changing the background to something more appropriate and professional.
+	-actual videos of the band playing at gigs.
 
-	-More pictures advertising the band.
+	-more information advertising what music they play.
 
-	-Carousel with alot more images of the band at gigs and in general.(added)
-
-	-Videos of the band playing at gigs.(this wasnt available and what was, was poor quality)
-
-	-More information advertising what music they play.(added in about)
-
-	-Some Jquery events to make the site more eye catching
-
-	-A way to advertise resources on the site for use of fonts etc(added as and alert on home page)
-
+	-change of background imagery with the possibilty of it changing to a sepia effect on the home page.
 
 
 ## Technologies Used
@@ -59,10 +53,10 @@ This website will allow the user to browse for more information on the band, vie
 	-**FLEXBOX** is a library in addition to CSS to allow for flexible Div's and and has been used to move elements around in a certain order or for positioning.
 
 -[Javascript]
-	-**Javascript** has been used to alert the user that they're contact form has been submitted succesfully and and alert has been cretaed to give credits information.
+	-**Javascript** has been used to alert the user that they're contact form has been submitted succesfully.
 
 -[JQuery]
-	-**JQuery** to soon be used for adding effects ie hiding of elements and then to fade in content.
+	-**JQuery** to soon be used for adding the effect of sepia to back ground images after a set time.
  
 
 ## Contributing
@@ -77,13 +71,12 @@ This website will allow the user to browse for more information on the band, vie
 
 **Background Images**
 
-	were taken from random google search, its there just for pespective of the choosen theme(this will be replaced)
+	-Parchment effect was removed and replaced with the wood effect
 
-## Testing and Errors Fixed and on going. 
-
+## Testing and Errors Fixed and on going.
 
 	-Toggoling the responsive navbar wouldn't work as it was all ready in full view, ie not hidden and would not hide when clicked.
-	 **FIXED**, by adding collapsed to the navbar-toggle class fixed this.
+	 **FIXED, by adding collapsed to the navbar-toggle class fixed this.
 
 	-Issue with how the toggle button looked after I had edited some code in CSS.
 	**FIXED**, by removing the width and height values placed on the button element.
@@ -91,6 +84,10 @@ This website will allow the user to browse for more information on the band, vie
 	-Issue with text not appearing.
 	**FIXED**, by adding a background so that text became visible again.
 
+	-Issue with page layout and dissappearance of styling and imagery after placing HTML pages into a seperate folder.
+	**FIXED**, by adding (/..) after image locations and that of Jquery and css folder locations.
+
+	-Issue
 
 ## Created by
 

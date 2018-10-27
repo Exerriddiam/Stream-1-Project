@@ -1,17 +1,3 @@
-$(document).ready(){
-
-	$("background")function() {
-	$("background").css("sepia","1");
-
-}
-
-
-
-	$("p").onClick(function() {
-	$("p").css("color","red");
-}):
-
-}
-
-
-
+/*function submit_form() {
+          alert("Thank you for submitting your details. We will get back to you shortly");
+          }
